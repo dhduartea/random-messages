@@ -1,0 +1,23 @@
+{
+  "name": "random-messages",
+  "version": "1.0.0",
+  "description": "Random messages generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "--"
+  },
+  "keywords": [
+    "random",
+    "messages"
+  ],
+  "author": "David Duarte <dhduartea@gmail.com>",
+  "license": "MIT",
+  "bin":{
+    "random-msg":"./bin/global.js"
+  },
+  "preferGlobal": true
+}
