@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "--"
+    "url": "git+https://github.com/dhduartea/random-messages.git"
   },
   "keywords": [
     "random",
@@ -16,8 +16,12 @@
   ],
   "author": "David Duarte <dhduartea@gmail.com>",
   "license": "MIT",
-  "bin":{
-    "random-msg":"./bin/global.js"
+  "bin": {
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/dhduartea/random-messages/issues"
+  },
+  "homepage": "https://github.com/dhduartea/random-messages#readme"
 }
